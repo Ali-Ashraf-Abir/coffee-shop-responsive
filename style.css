@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    background-color: black;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navigation{
+    background-image: url(images/Coffee.jpg);
+    width: 100%;
+    height: 1000px;
+}
+
+
+ul,li{
+    display: flex;
+    float: right;
+
+ 
+    
+}
+ul li{
+    padding: 10px;
+    padding-right: 20px;;
+}
+ul li a{
+
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px white solid;
+}
+
+
+ul li a:hover{
+    background-color: white;
+    color:black
+}
+
+
+.navigation h1,.navigation p{
+    color: white;
+    float: right;
+    width: 300px;
+    padding-top: 0px;
+    padding-left: 350px;
+
+
+}
+.navigation h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+.ourspeciality{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+}
+.specialities{
+    color:black;
+    
+}
+.colspec{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.colspec h1,.colspec p{
+    background-color: bisque;
+    padding: 20px;
+}
+.colspec h1{
+    text-align: center;
+}
+.design{
+    width: 70%;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.colwork{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    padding-top: 100px;
+    background-color: rgb(102, 86, 65);
+    text-align: center;
+}
+.colwork h1{
+    font-size: 50px;
+}
+
+.colwork2{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    padding-top: 100px;
+    background-color: rgb(167, 150, 128);
+    text-align: center;
+}
+.design2{
+    width: 100%;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.colwork2 h1{
+    font-size: 50px;
+}
+.bestcoffee{
+
+    padding-top: 50px;
+    background-color: rgb(102, 86, 65);;
+}
+.title{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cappucino{
+    height:150px;
+    width: 150px;
+}
+.romb{
+    height:150px;
+    width: 150px;
+}
+.coconut{
+    height:150px;
+    width: 150px;
+}
+.black{
+    height:150px;
+    width: 150px;
+}
+.colcofee{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.shop{
+    width: 90%;
+
+ 
+}
+.colloc{
+    font-family: sans-serif;
+    color: wheat;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.location{
+    text-align: center;
+    padding-right: 100px;
+}
+.colloc2{
+    font-family: sans-serif;
+    color: wheat;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.colloc2 p{
+    text-align:center;
+}
+.credit{
+    font-size: 25px;
+    font-weight: 700;
+    color:white;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+@media screen and (max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .design2{
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+    .shop{
+        width: 90%;
+     
+    }
+    .colloc{
+        font-family: sans-serif;
+        color: wheat;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .colloc2 p{
+        text-align:left;
+    }
+    .location{
+        text-align: center;
+
+
+    }
+}
